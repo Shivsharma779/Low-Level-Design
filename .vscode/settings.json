@@ -4,7 +4,6 @@
         "comments": true,
         "strings": true
     },
-    "git.defaultRemote": "github-personal",
     "cmake.sourceDirectory": "/Users/shivsharma/WorkSpace/Courses/Low-Level-Design/1.SolidPrinciples/SingleResponsibility",
     "C_Cpp.codeAnalysis.clangTidy.enabled": true,
     "C_Cpp.codeAnalysis.clangTidy.path": "/opt/homebrew/opt/llvm/bin/clang-tidy" // adjust path if needed
