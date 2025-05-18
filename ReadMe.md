@@ -6,7 +6,7 @@ This repository contains multiple modules, each with its own documentation. Belo
 
 - [1. SOLID Principles](./1.SolidPrinciples/ReadMe.md)
   - [Single Responsibility Principle](./1.SolidPrinciples/SingleResponsibility/ReadMe.md)
-  - [Open Close Principle](./1.SolidPrinciples/OpenClose/ReadMe.md)
+  - [Open Close Principle](./1.SolidPrinciples/OpenCloseprinciple/ReadMe.md)
   - [Liskov Substitution Principle](./1.SolidPrinciples/LiskovSubstitution/ReadMe.md)
   - [Interface Segregation Principle](./1.SolidPrinciples/InterfaceSegregation/ReadMe.md)
   - [Dependency Inversion Principle](./1.SolidPrinciples/DependencyInversion/ReadMe.md)
