@@ -2,9 +2,20 @@
     "version": "2.0.0",
     "tasks": [
         {
+            "label": "Clean Build Directory",
+            "type": "shell",
+            "command": "rm -rf ${workspaceFolder}/build",
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "problemMatcher": [],
+            "detail": "Remove previous build files"
+        },
+        {
             "label": "CMake Configure",
             "type": "shell",
-            "command": "cmake -S ${fileDirname} -B ${fileDirname}/build",
+            "command": "cmake -S ${workspaceFolder} -B ${workspaceFolder}/build",
             "group": {
                 "kind": "build",
                 "isDefault": false
@@ -15,7 +26,7 @@
         {
             "label": "CMake Build",
             "type": "shell",
-            "command": "cmake --build ${fileDirname}/build",
+            "command": "cmake --build ${workspaceFolder}/build",
             "group": {
                 "kind": "build",
                 "isDefault": true
