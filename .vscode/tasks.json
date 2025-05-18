@@ -1,0 +1,28 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "CMake Configure",
+            "type": "shell",
+            "command": "cmake -S ${fileDirname} -B ${fileDirname}/build",
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "problemMatcher": [],
+            "detail": "Configure the build directory using CMake"
+        },
+        {
+            "label": "CMake Build",
+            "type": "shell",
+            "command": "cmake --build ${fileDirname}/build",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "dependsOn": "CMake Configure",
+            "detail": "Build the target using CMake"
+        }
+    ]
+}
