@@ -53,4 +53,7 @@
         "vector": "cpp",
         "algorithm": "cpp"
     },
+    "C_Cpp.codeAnalysis.clangTidy.checks.disabled": [
+        "clang-diagnostic-error"
+    ],
 }
