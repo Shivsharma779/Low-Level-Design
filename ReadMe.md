@@ -10,7 +10,6 @@ This repository contains multiple modules, each with its own documentation. Belo
   - [Liskov Substitution Principle](./1.SolidPrinciples/LiskovSubstitution/ReadMe.md)
   - [Interface Segregation Principle](./1.SolidPrinciples/InterfaceSegregation/ReadMe.md)
   - [Dependency Inversion Principle](./1.SolidPrinciples/DependencyInversion/ReadMe.md)
-- [2. Other Modules](./2.OtherModules/ReadMe.md)
-  - *(Add more modules as needed)*
-
+- [2. Strategy Design Pattern](./2.Strategy/ReadMe.md)
+- 
 > **Note:** Click on any link to view the detailed documentation for that module or principle.
